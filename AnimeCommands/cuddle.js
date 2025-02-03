@@ -11,7 +11,7 @@ module.exports = {
 
     const embed = new EmbedBuilder()
       .setColor('#ff9900')
-      .setDescription(`${sender} cuddles ${targetUser || 'with the air'}! 🤗`)
+      .setDescription(`${sender} cuddles ${targetUser || 'avec l'air'}! 🤗`)
       .setImage(cuddleGif);
 
     message.reply({ embeds: [embed] });
