@@ -2,7 +2,7 @@ const { EmbedBuilder } = require('discord.js');
 const anime = require('anime-actions');
 const db = require("../mongodb");
 module.exports = {
-  name: 'bully',
+  name: 'Intimidé',
   description: 'Intimidez quelqu'un de manière ludique !',
   async execute(message, args) {
     const sender = message.author;
