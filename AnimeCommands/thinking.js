@@ -3,7 +3,7 @@ const anime = require('anime-actions');
 const db = require("../mongodb");
 module.exports = {
   name: 'thinking',
-  description: 'Show that you\'re thinking!',
+  description: 'Montre que tu est en train de réfléchir!',
   async execute(message, args) {
     const sender = message.author;
     const thinkingGif = await anime.thinking();
