@@ -2,8 +2,8 @@ const { EmbedBuilder } = require('discord.js');
 const anime = require('anime-actions');
 const db = require("../mongodb");
 module.exports = {
-  name: 'kiss',
-  description: 'Envoyez un baiser virtuel !',
+  name: 'Bisou',
+  description: 'Envoyez un Bisou virtuel !',
   async execute(message, args) {
     const sender = message.author;
     const targetUser = message.mentions.users.first();
