@@ -1,6 +1,8 @@
 #  ChipsBotNP by elmistorchipso 
 ▶️ Bot avec option musical simple et puissant.
+
 ▶️ Composé de diverses commandes.
+
 ▶️ Toujours en développement, vous pourriez rencontrer des bugs mineurs |
 
 # 📋 Aperçu
