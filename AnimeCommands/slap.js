@@ -11,7 +11,7 @@ module.exports = {
 
     const embed = new EmbedBuilder()
       .setColor('#ff3300')
-      .setDescription(`${sender} gives ${targetUser || 'the air'} a slap! 😠`)
+      .setDescription(`${sender} gives ${targetUser || 'l'air'} une gifle! 😠`)
       .setImage(slapGif);
 
     message.reply({ embeds: [embed] });
