@@ -2,7 +2,7 @@ const { EmbedBuilder } = require('discord.js');
 const anime = require('anime-actions');
 const db = require("../mongodb");
 module.exports = {
-  name: 'bonk',
+  name: 'Baisé',
   description: 'Bonk someone on the head!',
   async execute(message, args) {
     const sender = message.author;
@@ -11,7 +11,9 @@ module.exports = {
 
     const embed = new EmbedBuilder()
       .setColor('#ff3366')
-      .setDescription(`${sender} bonks ${targetUser || 'the air'} on the head! 🤦‍♂️`)
+      .setDescription(`${sender} bonks ${targetUser || 'the air'} 
+
+sur la tête ! 🤦‍♂️`)
       .setImage(bonkGif);
 
     message.reply({ embeds: [embed] });
