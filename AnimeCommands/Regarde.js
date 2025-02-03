@@ -2,7 +2,7 @@ const { EmbedBuilder } = require('discord.js');
 const anime = require('anime-actions');
 const db = require("../mongodb");
 module.exports = {
-  name: 'stare',
+  name: 'Regarde',
   description: 'Regardez quelqu'un !',
   async execute(message, args) {
     const sender = message.author;
