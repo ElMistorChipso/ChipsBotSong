@@ -3,7 +3,7 @@ const anime = require('anime-actions');
 const db = require("../mongodb");
 module.exports = {
   name: 'hug',
-  description: 'Send a hug gif in an embedded message!',
+  description: 'Envoyez un gif câlin dans un message intégré !',
   async execute(message, args) {
     
     const sender = message.author;
