@@ -32,7 +32,8 @@ M!blush : interaction gif animé
 ...
 
 # 📚 Copyright 
-ChipsBotNP© by elmistorchipso
+
+Ne pas voler:
 
 -Le nom du bot
 
@@ -43,5 +44,6 @@ ChipsBotNP© by elmistorchipso
 300 000 €
 
 **FREE NO PROFIT**
-Ne pas voler:
+
+ChipsBotNP© by elmistorchipso
 
