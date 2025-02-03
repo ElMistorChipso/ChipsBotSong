@@ -11,7 +11,7 @@ module.exports = {
 
     const embed = new EmbedBuilder()
       .setColor('#ff3399')
-      .setDescription(`${sender} sends a virtual kiss to ${targetUser || 'the air'}! 😘`)
+      .setDescription(`${sender} sends a virtual kiss to ${targetUser || 'l'air'}! 😘`)
       .setImage(kissGif);
 
     message.reply({ embeds: [embed] });
