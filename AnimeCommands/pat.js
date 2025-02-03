@@ -11,7 +11,7 @@ module.exports = {
 
     const embed = new EmbedBuilder()
       .setColor('#00ff00')
-      .setDescription(`${sender} pats ${targetUser}!`)
+      .setDescription(`${sender} tapote ${targetUser}!`)
       .setImage(patGif);
 
     message.reply({ embeds: [embed] });
