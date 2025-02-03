@@ -10,38 +10,23 @@ Le préfixe de base ou par défaut est "M!".
 ## ✨ Caractéristiques
 
 
-- **Moderation Commands**: 👮‍♂️ Keep your server under control with powerful moderation tools. Manage members, messages, and maintain a peaceful environment.
+- **Commandes de modération** : 👮‍♂️ Gardez votre serveur sous contrôle grâce à de puissants outils de modération. Gérez les membres, les messages et maintenez un environnement paisible.
 
-- **Utility Commands**: 🛠️ Boost your Discord experience with a range of handy utility commands. From server management to user information, we've got you covered.
+- **Commandes utilitaires** : 🛠️ Améliorez votre expérience Discord avec une gamme de commandes utilitaires pratiques. De la gestion du serveur aux informations sur les utilisateurs, nous avons ce qu'il vous faut.
 
-- **Image Commands**: 📸 Unleash your creativity with a variety of fun and artistic image commands. Transform images, create memes, and have a blast!
+- **Commandes d'image** : 📸 Libérez votre créativité avec une variété de commandes d'image amusantes et artistiques. Transformez des images, créez des mèmes et amusez-vous !
 
-- **Basic Commands**: ✨ Get started with essential commands for everyday Discord use. Greetings, information, and more, all at your fingertips.
+- **Commandes de base** : ✨ Démarrez avec les commandes essentielles pour une utilisation quotidienne de Discord. Salutations, informations et bien plus encore, à portée de main.
 
-- **Fun Commands**: 🎉 Add excitement to your server with entertaining and lighthearted commands. Games, jokes, and surprises await!
+- **Commandes amusantes** : 🎉 Ajoutez de l'excitation à votre serveur avec des commandes divertissantes et légères. Jeux, blagues et surprises vous attendent !
 
-- **Anime Commands**: 🌟 Explore the world of anime with specialized commands. show your expressions through different interactions.
-
-## 🛠️ Installation
-
-1. **Create a TOKEN Secret**: Generate a bot token from the Discord Developer Portal and add it to your bot.
-2. **Install Dependencies**: Install all required Node.js modules using the following command:
+- **Commandes Anime** : 🌟 Explorez le monde de l'anime avec des commandes spécialisées. montrez vos expressions à travers différentes interactions.
 
 ## 📜 Commands
-?help : pour les commandes disponibles.
-?play : joue de la musique.
-?blush : interaction gif animé
+M!hmusic : pour les commandes disponibles.
+M!play : joue de la musique.
+M!blush : interaction gif animé
 ...
-
-## 🤝 Contributing [Contact me on Discord]
-
-**Contributions to this project are welcome! If you'd like to contribute, follow these steps:**
-
-## Join Our Discord: Join our Discord server to connect with the community.
-## Show Your Work: Share your contributions with the community.
-## Bug Fixes: If you encounter any bugs or errors, please notify them.
-## Commit Changes: Commit your changes to your forked repository.
-## Pull Request: Submit a pull request with your changes.
 
 # 📚 Copyright 
 ChipsBotNP© by elmistorchipso
