@@ -11,7 +11,7 @@ module.exports = {
 
     const embed = new EmbedBuilder()
       .setColor('#9933ff')
-      .setDescription(`${sender} playfully bullies ${targetUser || 'the air'}! 😆`)
+      .setDescription(`${sender} playfully bullies ${targetUser || 'l'air'}! 😆`)
       .setImage(bullyGif);
 
     message.reply({ embeds: [embed] });
