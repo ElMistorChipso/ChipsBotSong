@@ -2,7 +2,7 @@ const { EmbedBuilder, ActionRowBuilder, ButtonBuilder } = require('discord.js');
 const { ButtonStyle } = require('discord.js');
 const db = require("../mongodb");
 module.exports = {
-  name: 'help',
+  name: 'hmusic',
   aliases: ['hlp', 'h'],
   description: 'Shows a list of available commands',
   execute(message, args) {
