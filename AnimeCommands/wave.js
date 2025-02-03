@@ -11,7 +11,7 @@ module.exports = {
 
     const embed = new EmbedBuilder()
       .setColor('#00ffcc')
-      .setDescription(`${sender} waves at ${targetUser || 'the air'}! 👋`)
+      .setDescription(`${sender} waves at ${targetUser || 'l'air'}! 👋`)
       .setImage(waveGif);
 
     message.reply({ embeds: [embed] });
