@@ -1,11 +1,11 @@
-#  MULTI-MUSIC BOT BY GlaceYT 
-▶️ simple and powerful multi music bot.
-▶️ consisting of various commands.
-▶️ Still in development you may face minor bugs|
+#  ChipsBotNP by elmistorchipso 
+▶️ Bot avec option musical simple et puissant.
+▶️ Composé de diverses commandes.
+▶️ Toujours en développement, vous pourriez rencontrer des bugs mineurs |
 
-# 📋 Overview
+# 📋 Aperçu
 
-The basic or default prefix is "?". You can change the prefix by modifying the `config.json` file.
+Le préfixe de base ou par défaut est "?". You can change the prefix by modifying the `config.json` file.
 
 ## ✨ Features
 
