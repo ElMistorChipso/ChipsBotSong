@@ -3,7 +3,7 @@ const anime = require('anime-actions');
 const db = require("../mongodb");
 module.exports = {
   name: 'yes',
-  description: 'Express agreement or approval!',
+  description: 'Accord ou approbation expresse !',
   async execute(message, args) {
     const sender = message.author;
     const yesGif = await anime.yes();
