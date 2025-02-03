@@ -3,7 +3,7 @@ const anime = require('anime-actions');
 const db = require("../mongodb");
 module.exports = {
   name: 'dance',
-  description: 'Dance like nobody\'s watching!',
+  description: 'Dansez comme si personne ne vous regardait !',
   async execute(message, args) {
     const sender = message.author;
     const danceGif = await anime.dance();
