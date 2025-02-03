@@ -10,7 +10,7 @@ module.exports = {
 
     const embed = new EmbedBuilder()
       .setColor('#ffcc00')
-      .setDescription(`${sender} is dancing! 💃🕺`)
+      .setDescription(`${sender} dance ! 💃🕺`)
       .setImage(danceGif);
 
     message.reply({ embeds: [embed] });
