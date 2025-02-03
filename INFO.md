@@ -47,3 +47,5 @@ Ne pas voler:
 
 ChipsBotNP© by elmistorchipso
 
+# Thanks to [GlaceYT](https://github.com/GlaceYT)
+
