@@ -10,7 +10,7 @@ module.exports = {
 
     const embed = new EmbedBuilder()
       .setColor('#00cc66')
-      .setDescription(`${sender} says yes! 👍`)
+      .setDescription(`${sender} Dit oui! 👍`)
       .setImage(yesGif);
 
     message.reply({ embeds: [embed] });
