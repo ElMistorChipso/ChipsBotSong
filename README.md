@@ -24,8 +24,11 @@ Le préfixe de base ou par défaut est "M!".
 
 ## 📜 Commands
 M!hmusic : pour les commandes disponibles.
+
 M!play : joue de la musique.
+
 M!blush : interaction gif animé
+
 ...
 
 # 📚 Copyright 
