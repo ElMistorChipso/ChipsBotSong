@@ -3,7 +3,7 @@ const anime = require('anime-actions');
 const db = require("../mongodb");
 module.exports = {
   name: 'pat',
-  description: 'Pat a user with a pat gif!',
+  description: 'Tapotez un utilisateur avec un gif tapote !',
   async execute(message, args) {
     const sender = message.author;
     const targetUser = message.mentions.users.first() || sender;
