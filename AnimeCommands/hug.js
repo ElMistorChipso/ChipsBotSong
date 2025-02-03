@@ -17,7 +17,7 @@ module.exports = {
  
     const embed = new EmbedBuilder()
       .setColor('#ff0000')
-      .setDescription(`${sender} sends a hug to ${targetUser}!`)
+      .setDescription(`${sender} Envoie un câlin à ${targetUser}!`)
       .setImage(hugGif);
 
     
