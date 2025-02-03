@@ -14,7 +14,7 @@ Le préfixe de base ou par défaut est "M!".
 
 - **Commandes de modération** : 👮‍♂️ Gardez votre serveur sous contrôle grâce à de puissants outils de modération. Gérez les membres, les messages et maintenez un environnement paisible.
 
-- **Commandes utilitaires** : 🛠️ Améliorez votre expérience Discord avec une gamme de commandes utilitaires pratiques. De la gestion du serveur aux informations sur les utilisateurs, nous avons ce qu'il vous faut.
+ **Commandes utilitaires** : 🛠️ Améliorez votre expérience Discord avec une gamme de commandes utilitaires pratiques. De la gestion du serveur aux informations sur les utilisateurs, nous avons ce qu'il vous faut.
 
 - **Commandes d'image** : 📸 Libérez votre créativité avec une variété de commandes d'image amusantes et artistiques. Transformez des images, créez des mèmes et amusez-vous !
 
