@@ -11,7 +11,7 @@ module.exports = {
 
     const embed = new EmbedBuilder()
       .setColor('#00ccff')
-      .setDescription(`${sender} gives ${targetUser || 'the air'} a high five! 🖐`)
+      .setDescription(`${sender} gives ${targetUser || 'l'air'} un high five ! 🖐`)
       .setImage(highfiveGif);
 
     message.reply({ embeds: [embed] });
