@@ -11,7 +11,7 @@ module.exports = {
 
     const embed = new EmbedBuilder()
       .setColor('#ffcc33')
-      .setDescription(`${sender} winks at ${targetUser || 'the air'} 😉`)
+      .setDescription(`${sender} winks at ${targetUser || 'l'air'} 😉`)
       .setImage(winkGif);
 
     message.reply({ embeds: [embed] });
