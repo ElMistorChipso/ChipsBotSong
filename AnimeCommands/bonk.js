@@ -11,7 +11,7 @@ module.exports = {
 
     const embed = new EmbedBuilder()
       .setColor('#ff3366')
-      .setDescription(`${sender} bonks ${targetUser || 'the air'} 
+      .setDescription(`${sender} bonks ${targetUser || 'l'air'} 
 
 sur la tête ! 🤦‍♂️`)
       .setImage(bonkGif);
