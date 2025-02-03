@@ -34,9 +34,6 @@ M!blush : interaction gif animé
 # 📚 Copyright 
 ChipsBotNP© by elmistorchipso
 
-**FREE NO PROFIT**
-Ne pas voler:
-
 -Le nom du bot
 
 -Le codage
@@ -44,3 +41,7 @@ Ne pas voler:
 **PUNISHEMENT**
 
 300 000 €
+
+**FREE NO PROFIT**
+Ne pas voler:
+
