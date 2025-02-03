@@ -2,7 +2,7 @@ const { EmbedBuilder } = require('discord.js');
 const anime = require('anime-actions');
 const db = require("../mongodb");
 module.exports = {
-  name: 'yes',
+  name: 'Oui',
   description: 'Fait un accord ou approbation expresse !',
   async execute(message, args) {
     const sender = message.author;
