@@ -11,7 +11,7 @@ module.exports = {
 
     const embed = new EmbedBuilder()
       .setColor('#ff9900')
-      .setDescription(`${sender} is staring at ${targetUser || 'le néant'}... 👀`)
+      .setDescription(`${sender} is staring at ${targetUser || 'le vide'}... 👀`)
       .setImage(stareGif);
 
     message.reply({ embeds: [embed] });
