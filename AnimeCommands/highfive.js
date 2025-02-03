@@ -3,7 +3,7 @@ const anime = require('anime-actions');
 const db = require("../mongodb");
 module.exports = {
   name: 'highfive',
-  description: 'Give someone a virtual high five!',
+  description: 'Donnez à quelqu'un un high five virtuel !',
   async execute(message, args) {
     const sender = message.author;
     const targetUser = message.mentions.users.first();
