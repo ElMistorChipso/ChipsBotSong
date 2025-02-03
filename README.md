@@ -5,9 +5,9 @@
 
 # 📋 Aperçu
 
-Le préfixe de base ou par défaut est "?". You can change the prefix by modifying the `config.json` file.
+Le préfixe de base ou par défaut est "M!".
 
-## ✨ Features
+## ✨ Caractéristiques
 
 
 - **Moderation Commands**: 👮‍♂️ Keep your server under control with powerful moderation tools. Manage members, messages, and maintain a peaceful environment.
@@ -28,9 +28,9 @@ Le préfixe de base ou par défaut est "?". You can change the prefix by modifyi
 2. **Install Dependencies**: Install all required Node.js modules using the following command:
 
 ## 📜 Commands
-?help: for available commands.
-?play: plays music.
-?blush : anime gif interaction
+?help : pour les commandes disponibles.
+?play : joue de la musique.
+?blush : interaction gif animé
 ...
 
 ## 🤝 Contributing [Contact me on Discord]
@@ -44,5 +44,10 @@ Le préfixe de base ou par défaut est "?". You can change the prefix by modifyi
 ## Pull Request: Submit a pull request with your changes.
 
 # 📚 Copyright 
-
-All code in this project is authored by GlaceYT. Please do not use this code for any public usage, such as creating YouTube videos, Git repositories, etc., without my explicit permission.
+ChipsBotNP© by elmistorchipso
+**FREE NO PROFIT**
+Ne pas voler:
+-Le nom du bot
+-Le codage
+**PUNISHEMENT**
+300 000 €
