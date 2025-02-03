@@ -10,7 +10,7 @@ module.exports = {
 
     const embed = new EmbedBuilder()
       .setColor('#99ccff')
-      .setDescription(`${sender} is thinking... 🤔`)
+      .setDescription(`${sender} pense... 🤔`)
       .setImage(thinkingGif);
 
     message.reply({ embeds: [embed] });
