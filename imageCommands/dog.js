@@ -16,7 +16,7 @@ module.exports = {
 
       const embed = new EmbedBuilder()
         .setColor('#FFFFFF')
-        .setTitle('Random Dog Image 🐶')
+        .setTitle('Image de chien aléatoire 🐶')
         .setImage(imageUrl);
 
       // Reply to the user who executed the command
