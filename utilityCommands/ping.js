@@ -8,7 +8,7 @@ module.exports = {
         const embed = new EmbedBuilder()
             .setColor('#FFFFFF')
             .setTitle('Bot Latency')
-            .setDescription(`📊 The bot's ping is ${ping}ms.`)
+            .setDescription(`📊 Le ping du bot est ${ping}ms.`)
             .setTimestamp();
 
 
