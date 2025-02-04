@@ -2,8 +2,8 @@ const axios = require('axios');
 const { EmbedBuilder } = require('discord.js');
 const db = require("../mongodb");
 module.exports = {
-  name: 'joke',
-  description: 'Tells a random joke',
+  name: 'Blague',
+  description: 'Dire une blague aléatoire',
   async execute(message, args) {
     try {
       const response = await axios.get('https://official-joke-api.appspot.com/random_joke');
