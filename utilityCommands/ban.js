@@ -9,17 +9,17 @@ module.exports = {
     description: 'Ban a user from the server',
     execute(message, args) {
         if (!message.member.permissions.has('BAN_MEMBERS')) {
-            return message.reply('❌ You do not have permission to use this command.');
+            return message.reply('❌ Vous n'êtes pas autorisé à utiliser cette commande.');
         }
         const user = message.mentions.users.first();
         if (!user) {
-            return message.reply('❌ You need to mention a user to ban.');
+            return message.reply('❌ Vous devez mentionner un utilisateur à bannir.');
         }
         const member = message.guild.members.cache.get(user.id);
         member.ban();
         const embed = new EmbedBuilder()
             .setColor('#FF0000')
-            .setTitle('User Banned ✅')
+            .setTitle('Utilisateur bannis ✅')
             .setDescription(`▶️ ${user.tag} has been banned from the server by ${message.author.tag}.`)
             .setTimestamp();
 
