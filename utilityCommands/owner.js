@@ -9,7 +9,7 @@ module.exports = {
         const embed = new EmbedBuilder()
             .setColor('#FFFFFF')
             .setTitle(' 🫅 Owner Info')
-            .setDescription(`__**About me**__:\n 🤖 Myself Shiva aka GlaceYT. I am a discord bot developer and web developer. I love playing games, watching anime and building different webserver applications. You will get faster replies on instagram than other social media. Feel free to contact me!\n ❤️ [GlceYT](${youtubeLink})\n 💙 [GlaceYTT](${InstagramLink})`)
+            .setDescription(`__**About me**__:\n 🤖 Moi c'est elmistorchipso, fan de programmation depuis mes 8 ans. Mon kiffe, c'est la programmation et activités informatiques. Si vous voulez vous en sortir en python, je vous conseille de commencer par scratch, adacraft puis Github. j'éspère que ChipsBotNP vous plaira c'était MisterChips aka elmistorchipso. peace !`)
             .setTimestamp();
 
 
