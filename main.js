@@ -27,7 +27,7 @@ app.get('/', (req, res) => {
   res.sendFile(imagePath);
 });
 app.listen(port, () => {
-  console.log(`🔗 Listening to GlaceYT : http://localhost:${port}`);
+  console.log(`🔗 Listening to elmistorchipso : http://localhost:${port}`);
 });
 printWatermark();
 
@@ -92,10 +92,10 @@ client.on('messageCreate', (message) => {
 async function login() {
   try {
     await client.login(process.env.TOKEN);
-    console.log('\x1b[32m%s\x1b[0m', '|    🍔 Bot logged in successfully!');
-    console.log('\x1b[36m%s\x1b[0m', '|    🚀 Commands Loaded successfully!');
-    console.log('\x1b[32m%s\x1b[0m', `|    🌼 Logged in as ${client.user.username}`);
-    console.log('\x1b[36m%s\x1b[0m', `|    🏡 Bot is in ${client.guilds.cache.size} servers`);
+    console.log('\x1b[32m%s\x1b[0m', '|    🍔 Bot connecté avec succès !');
+    console.log('\x1b[36m%s\x1b[0m', '|    🚀 Commandes chargées avec succès !');
+    console.log('\x1b[32m%s\x1b[0m', `|    🌼 Connecté en tant que ${client.user.username}`);
+    console.log('\x1b[36m%s\x1b[0m', `|    🏡 Le robot est présent sur ${client.guilds.cache.size} servers`);
   } catch (error) {
     console.error('\x1b[31m%s\x1b[0m', '❌ Failed to log in:', error);
     console.log('\x1b[31m%s\x1b[0m', '❌ Client Not Login, Restarting Process...');
@@ -106,7 +106,7 @@ async function login() {
 
 client.once('ready', () => {
   setTimeout(() => {
-    console.log('\x1b[32m%s\x1b[0m', `|    🎯 Activity sucessfully set!`);
+    console.log('\x1b[32m%s\x1b[0m', `|    🎯 Activité définie avec succès !`);
     client.user.setPresence({
       activities: [{ name: `v@1.7`, type: ActivityType.Watching }],
       status: 'idle',
