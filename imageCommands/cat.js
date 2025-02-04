@@ -16,7 +16,7 @@ module.exports = {
 
       const embed = new EmbedBuilder()
         .setColor('#FFFFFF')
-        .setTitle('Random Cat Image 😺')
+        .setTitle('Image de chat aléatoire 😺')
         .setImage(imageUrl);
 
       message.reply({ embeds: [embed] });
