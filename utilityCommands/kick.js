@@ -24,7 +24,7 @@ Icône de validation par la communauté');
         // Create an embed object
         const embed = new EmbedBuilder()
             .setColor('#FF0000')
-            .setTitle('User Kicked ✅')
+            .setTitle('Utilisateur expulsé ✅')
             .setDescription(`▶️ ${user.tag} a été expulsé du serveur par ${message.author.tag}.`)
             .setTimestamp();
 
