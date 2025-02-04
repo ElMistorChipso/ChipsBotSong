@@ -1,11 +1,11 @@
 const db = require("../mongodb");
 module.exports = {
   name: 'say',
-  description: 'Make the bot repeat a message and delete the user message',
+  description: 'Faire en sorte que le bot répète un message et supprime le message de l'utilisateur',
   async execute(message, args) {
    
     if (args.length === 0) {
-      message.reply('Please provide a message to repeat.');
+      message.reply('Veuillez fournir un message à répéter.');
       return;
     }
 
@@ -16,7 +16,7 @@ module.exports = {
     try {
       await message.delete();
     } catch (error) {
-      console.error(`Error deleting user message: ${error}`);
+      console.error(`Erreur lors de la suppression du message utilisateur: ${error}`);
     }
 
  
