@@ -6,13 +6,15 @@ module.exports = {
     execute(message, args) {
         // Check if the user has the necessary permissions to use the command
         if (!message.member.permissions.has('KICK_MEMBERS')) {
-            return message.reply('❌ You do not have permission to use this command.');
+            return message.reply('❌ Vous n'êtes pas autorisé à utiliser cette commande.');
         }
 
         // Check if a user was mentioned in the command
         const user = message.mentions.users.first();
         if (!user) {
-            return message.reply('❌ You need to mention a user to kick.');
+            return message.reply('❌ Vous devez mentionner un utilisateur pour kicker.
+
+Icône de validation par la communauté');
         }
 
         // Kick the mentioned user
@@ -23,7 +25,7 @@ module.exports = {
         const embed = new EmbedBuilder()
             .setColor('#FF0000')
             .setTitle('User Kicked ✅')
-            .setDescription(`▶️ ${user.tag} has been kicked from the server by ${message.author.tag}.`)
+            .setDescription(`▶️ ${user.tag} a été expulsé du serveur par ${message.author.tag}.`)
             .setTimestamp();
 
         message.reply({ embeds: [embed] });
